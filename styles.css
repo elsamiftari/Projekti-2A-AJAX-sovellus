@@ -1,0 +1,141 @@
+/* 🌸 Body ja tausta */
+body {
+  margin: 0; /* Poistaa oletusmarginaalit */
+  font-family: Arial, sans-serif; /* Tekstityyli */
+  background-color: #ffb6c1; /* Vaaleanpunainen tausta */
+  display: flex; /* Käytetään Flexboxia keskitykseen */
+  justify-content: center; /* Keskitetään vaakasuunnassa */
+  align-items: center; /* Keskitetään pystysuunnassa */
+  min-height: 100vh; /* Varmistaa että body täyttää koko näkymän korkeuden */
+}
+
+/* 🌸 Pääkontaineri */
+.container {
+  text-align: center; /* Teksti keskelle */
+  max-width: 800px; /* Maksimileveys */
+  width: 90%; /* Mukautuva leveys */
+  padding: 20px; /* Sisäinen marginaali */
+  background-color: #fff0f5; /* Vaalean pinkki laatikko taustaksi */
+  border-radius: 15px; /* Pyöristetyt kulmat */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Varjo efekti */
+}
+
+/* 🌸 Hakukenttä ja nappi */
+#search-box {
+  display: flex; /* Flexbox riviksi */
+  justify-content: center; /* Keskitys vaakasuunnassa */
+  gap: 10px; /* Väli inputin ja napin välillä */
+  margin-bottom: 20px; /* Alareunan tila */
+}
+
+#movie-input {
+  padding: 10px; /* Sisäinen tila */
+  width: 60%; /* Leveys */
+  border-radius: 5px; /* Pyöristetyt kulmat */
+  border: 1px solid #ccc; /* Harmaa reunaviiva */
+  font-size: 16px; /* Tekstin koko */
+}
+
+#search-btn {
+  padding: 10px 20px; /* Sisäinen tila */
+  border: none; /* Ei reunaviivaa */
+  background-color: #ff69b4; /* Pinkki nappi */
+  color: white; /* Tekstin väri */
+  font-size: 16px; /* Tekstin koko */
+  border-radius: 5px; /* Pyöristetyt kulmat */
+  cursor: pointer; /* Muuttaa hiiren osoittimen kädeksi */
+}
+
+#search-btn:hover {
+  background-color: #ff1493; /* Tummempi pinkki hoverilla */
+}
+
+/* 🌸 Hakutulokset grid-muodossa */
+#results {
+  display: grid; /* Grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Automaattisesti sopiva määrä sarakkeita */
+  gap: 20px; /* Väli korttien välillä */
+}
+
+/* 🌸 Elokuvakortit */
+.movie-card {
+  background-color: #fff; /* Valkoinen kortti */
+  border-radius: 10px; /* Pyöristetyt kulmat */
+  overflow: hidden; /* Piilottaa sisällön, joka menee reunan yli */
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1); /* Varjo kortille */
+  cursor: pointer; /* Muuttaa osoittimen kädeksi */
+  transition: transform 0.2s; /* Animointi hoverissa */
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Kortin suurennus hoverissa */
+}
+
+.movie-card img {
+  width: 100%; /* Kuva täyttää kortin leveyden */
+  height: 225px; /* Kiinteä korkeus */
+  object-fit: cover; /* Kuvan skaalaus ilman vääristymistä */
+}
+
+.movie-info {
+  padding: 10px; /* Sisäinen tila kortissa */
+  text-align: left; /* Teksti vasemmalle */
+}
+
+.movie-info h3 {
+  margin: 0 0 5px 0; /* Ylätason otsikon marginaali */
+  font-size: 18px; /* Fonttikoko */
+}
+
+.movie-info p {
+  margin: 0; /* Ei ylimääräistä marginaalia */
+  font-size: 14px; /* Fonttikoko */
+  color: #555; /* Harmaa teksti */
+}
+
+/* 🌸 Overlay elokuvan tiedoille */
+#movie-details {
+  display: none; /* Piilotettu aluksi */
+  position: fixed; /* Kiinnitetty näkymään */
+  top: 0; left: 0; /* Täyttää koko ruudun */
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.6); /* Tumma läpinäkyvä tausta */
+  justify-content: center; /* Keskitys vaakasuunnassa */
+  align-items: center; /* Keskitys pystysuunnassa */
+  z-index: 1000; /* Aina päällimmäisenä */
+}
+
+.movie-details-content {
+  background-color: #fff0f5; /* Vaalea pinkki laatikko */
+  padding: 25px; /* Sisäinen tila */
+  border-radius: 15px; /* Pyöristetyt kulmat */
+  max-width: 600px; /* Maksimileveys */
+  width: 90%; /* Mukautuva leveys */
+  text-align: center; /* Keskitetty teksti */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3); /* Varjo efektit */
+  max-height: 90%; /* Ei ylitä ruudun korkeutta */
+  overflow-y: auto; /* Scrollataan jos sisältö pitkä */
+}
+
+.movie-details-content img {
+  width: 250px; /* Kuva leveys */
+  border-radius: 10px; /* Pyöristetyt kulmat */
+  margin: 15px 0; /* Ylä- ja alaväli */
+}
+
+#back-btn {
+  background-color: #ff69b4; /* Pinkki nappi */
+  color: white; /* Tekstin väri */
+  border: none; /* Ei reunaviivaa */
+  padding: 10px 20px; /* Sisäinen tila */
+  border-radius: 8px; /* Pyöristetyt kulmat */
+  cursor: pointer; /* Muuttaa hiiren osoittimen kädeksi */
+  font-size: 16px; /* Tekstin koko */
+  margin-bottom: 15px; /* Alareunan tila */
+}
+
+#back-btn:hover {
+  background-color: #ff1493; /* Tummempi pinkki hoverissa */
+  transform: scale(1.05); /* Pieni suurennus hoverissa */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elokuvahaku</title>
+  <!-- 🌸 Linkitetään erillinen CSS-tiedosto -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 🌸 Pääkontaineri sivun sisällölle -->
+<div class="container">
+  <h1>Elokuvahaku</h1>
+
+  <!-- 🌸 Hakukenttä ja nappi -->
+  <div id="search-box">
+    <input type="text" id="movie-input" placeholder="Kirjoita elokuvan nimi...">
+    <button id="search-btn">Hae</button>
+  </div>
+
+  <!-- 🌸 Hakutulokset tulevat tänne -->
+  <div id="results"></div>
+</div>
+
+<!-- 🌸 Overlay yksittäisen elokuvan tiedoille -->
+<div id="movie-details">
+  <div class="movie-details-content">
+    <!-- 🌸 Takaisin-nappi overlayssa -->
+    <button id="back-btn">⬅ Takaisin</button>
+    <!-- 🌸 Elokuvan lisätiedot -->
+    <div id="movie-info"></div>
+  </div>
+</div>
+
+<!-- 🌸 Linkitetään erillinen JS-tiedosto -->
+<script src="script.js"></script>
+</body>
+</html>
