@@ -7,7 +7,7 @@
 ---
 
 ## Verkkolinkit
-- GitHub
+- GitHub: https://github.com/elsamiftari/Projekti-2A-AJAX-sovellus/tree/main
 - Julkaistu sovellus: [Lisää tähän URL]  
 - Projektin videoesittely: [Lisää tähän URL]
 
@@ -51,6 +51,14 @@ Tarkistettiin terminaalin avulla, virheitä ei pitäisi olla
 ---
 
 ## Kuvakaappaukset
+<img width="775" height="279" alt="{CE7B1194-A62D-4454-8EEC-D641889D1556}" src="https://github.com/user-attachments/assets/d7d41582-185a-483b-894d-e36b2ff6749e" />
+
+<img width="751" height="435" alt="{67F7FBFC-EE00-40BF-AF06-C7CC2E589DAA}" src="https://github.com/user-attachments/assets/3e641f58-02e7-4929-9955-d1ba0b792dab" />
+
+<img width="488" height="341" alt="{E46C52ED-00F7-4FEB-8E23-14CF58FA2518}" src="https://github.com/user-attachments/assets/a32fecca-8409-4e3d-b572-c04f4c86ff70" />
+
+
+
 
 ---
 
