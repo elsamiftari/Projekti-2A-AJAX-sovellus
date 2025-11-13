@@ -8,7 +8,7 @@
 
 ## Verkkolinkit
 - GitHub: https://github.com/elsamiftari/Projekti-2A-AJAX-sovellus/tree/main
-- Julkaistu sovellus: [Lisää tähän URL]  
+- Julkaistu sovellus: https://delightful-narwhal-508acf.netlify.app/
 - Projektin videoesittely: [Lisää tähän URL]
 
 ---
