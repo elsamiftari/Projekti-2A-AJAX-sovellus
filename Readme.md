@@ -1,4 +1,4 @@
-# Elokuvahaku
+ # Elokuvahaku
 
 ## Projektin tekijät
 - Elsa Miftari  
@@ -13,25 +13,16 @@
 ---
 
 ## Työn jakautuminen
-- Elsa: Suunnitteli sovelluksen rakenteen, kirjoitti hakukortti- ja overlay-logiikan, vastasi JS-koodista.  
-- Minttu: Vastasi HTML- ja CSS-rakenteesta, tyylitteli sovelluksen, auttoi testauksessa ja bugien korjauksessa.  
-- Yhteistyö sujui hyvin; sovelluksen eri osat yhdistettiin GitHubissa ja keskustelimme muutoksista säännöllisesti.
-
+- Tehtiin yhdessä scriptin. Elsa teki css ja mittu html. Tehtiin erikseen readme.md
 ---
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
-Mielestämme onnistuimme hakutoiminnallisuuden ja overlayn toteutuksessa hyvin.
-Parantamista olisi responsiivisuuden hienosäätö ja hakuhistorian lisääminen.
-Sovelluksesta jäi puuttumaan joitain lisäominaisuuksia, kuten lajittelu ja suodatus.
-Koemme, että olemme oppineet AJAX-kutsujen tekemistä, DOM-manipulaatiota ja event-handlereiden dynaamista käyttöä.
-Epäselväksi jäi jonkin verran API:n hakutulosten rajaus ja virheenkäsittely.
-Antaisimme itsellemme pisteitä seuraavasti: 9/10 p
-
+Meidän mielestä hakutoiminto ja overlay onnistu tosi hyvin. Parannettavaa ois vielä vähän responsiivisuudessa ja vaikka hakuhistorian lisäämisessä. Sovelluksesta jäi uupumaan joitain lisäjuttuja, kuten lajittelu ja suodatus, mutta muuten ollaan tyytyväisiä. Tää projekti opetti paljon AJAX-kutsuista sekä DOMin käsittelystä.
+Annettais itellemme arvosanaks 9/10.
 ---
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta
 Kurssi sekä lähiopetus ovat tuntuneet hyödyllisiltä ja käytännönläheisiltä.  
-Oppimistani tukisi, jos harjoituksissa olisi enemmän esimerkkejä live-API:en käytöstä ja AJAX-kutsujen optimoinnista.
 
 ---
 
@@ -54,7 +45,7 @@ Käyttäjä voi kirjoittaa elokuvan nimen, nähdä hakutulokset korttimuodossa j
 ---
 
 ## Tunnetut virheet/bugit
-Tarkistettiin terminaalin avulla virheitä ei pitäisi olla
+Tarkistettiin terminaalin avulla, virheitä ei pitäisi olla
 
 ---
 
@@ -72,4 +63,7 @@ Käytetyt teknologiat:
 ---
 
 ## Asennus
-1. git clone [repo-url]
+Lataa kaikki tiedostot ja avaa index.html selaimessa klikkaamalla tiedostoa oikealla hiiren painikkeella ja valitsemalla "Open in default browser". Tämän jälkeen pääset kokeilemaan sivustoamme, voit hakea mitä tahansa elokuvaa, ja klikkaamalla elokuvan nimeä näet tarkemmat tiedot.
+
+## Kiitokset
+Käytimme apuna erilaisia YouTube-tutoriaaleja ja TikTok-videoita. Katsoimme myös muiden tekemiä projekteja GitHubista. Näitä hyödynnettiin esimerkiksi erilaisten asioiden selittämiseen ja ymmärtämiseen, kuten miksi jokin tietty ratkaisu tehdään tietyllä tavalla.
