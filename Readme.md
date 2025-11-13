@@ -7,13 +7,14 @@
 ---
 
 ## Verkkolinkit
+- GitHub
 - Julkaistu sovellus: [Lisää tähän URL]  
 - Projektin videoesittely: [Lisää tähän URL]
 
 ---
 
 ## Työn jakautuminen
-- Tehtiin yhdessä scriptin. Elsa teki css ja mittu html. Tehtiin erikseen readme.md
+- Tehtiin yhdessä scriptin. Elsa teki css ja Mittu html. Tehtiin erikseen readme.md
 ---
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
