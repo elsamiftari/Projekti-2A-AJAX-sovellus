@@ -18,7 +18,7 @@
 ---
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
-Meidän mielestä hakutoiminto ja overlay onnistu tosi hyvin. Parannettavaa ois vielä vähän responsiivisuudessa ja vaikka hakuhistorian lisäämisessä. Sovelluksesta jäi uupumaan joitain lisäjuttuja, kuten lajittelu ja suodatus, mutta muuten ollaan tyytyväisiä. Tää projekti opetti paljon AJAX-kutsuista sekä DOMin käsittelystä.
+- Meidän mielestä hakutoiminto ja overlay onnistu tosi hyvin. Parannettavaa ois vielä vähän responsiivisuudessa ja vaikka hakuhistorian lisäämisessä. Sovelluksesta jäi uupumaan joitain lisäjuttuja, kuten lajittelu ja suodatus, mutta muuten ollaan tyytyväisiä. Tää projekti opetti paljon AJAX-kutsuista sekä DOMin käsittelystä.
 Annettais itellemme arvosanaks 9/10.
 ---
 
